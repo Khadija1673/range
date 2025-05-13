@@ -1,0 +1,40 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.slider{
+    position: relative;
+    background-color:rgb(235, 235, 223);
+    height: 10px;
+    border-radius: 5px;
+}
+.slider .priceSlider{
+    height: 100%;
+    position: absolute;
+    background-color: green;
+    left: 0%;
+    right: 0%;
+    border-radius: 5px;
+}
+.range-input{
+    position: relative;
+}
+.range-input input{
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -6px;
+    background: none;
+    pointer-events: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+    height: 17px;
+    width: 17px;
+    border-radius: 70%;
+    background: #8a8888;
+    pointer-events: auto;
+    -webkit-appearance: none;
+}
